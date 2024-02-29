@@ -44,3 +44,6 @@ main{
 .stats img{
     width: 100%;
 }
+.badge{
+    font-size: 10px;
+}
