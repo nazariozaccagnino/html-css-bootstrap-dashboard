@@ -49,12 +49,20 @@
                               
                               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
                                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
                                   <div>
                                     <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="inputname4" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="inputname4">
+                                          </div>
+                                          <div class="col-md-6">
+                                            <label for="inputsurname4" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="inputsurname4">
+                                          </div>
                                         <div class="col-md-6">
                                           <label for="inputEmail4" class="form-label">Email</label>
                                           <input type="email" class="form-control" id="inputEmail4">
@@ -64,38 +72,39 @@
                                           <input type="password" class="form-control" id="inputPassword4">
                                         </div>
                                         <div class="col-12">
-                                          <label for="inputAddress" class="form-label">Address</label>
+                                          <label for="inputAddress" class="form-label">Indirizzo</label>
                                           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                                         </div>
-                                        <div class="col-12">
-                                          <label for="inputAddress2" class="form-label">Address 2</label>
-                                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                        </div>
                                         <div class="col-md-6">
-                                          <label for="inputCity" class="form-label">City</label>
+                                          <label for="inputCity" class="form-label">Città</label>
                                           <input type="text" class="form-control" id="inputCity">
                                         </div>
                                         <div class="col-md-4">
-                                          <label for="inputState" class="form-label">State</label>
+                                          <label for="inputState" class="form-label">Stato</label>
                                           <select id="inputState" class="form-select">
                                             <option selected>Choose...</option>
                                             <option>...</option>
                                           </select>
                                         </div>
                                         <div class="col-md-2">
-                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <label for="inputZip" class="form-label">Cap</label>
                                           <input type="text" class="form-control" id="inputZip">
                                         </div>
+                                        <div class="col-12">
+                                            <label for="formFile" class="form-label">Inserisci foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                          </div>
                                         <div class="col-12">
                                           <div class="form-check">
                                             <input class="form-check-input" type="checkbox" id="gridCheck">
                                             <label class="form-check-label" for="gridCheck">
-                                              Check me out
+                                              Seleziona per proseguire
                                             </label>
                                           </div>
                                         </div>
                                         <div class="col-12">
-                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                          <button type="submit" class="btn btn-primary">Salva</button>
+                                          <button type="button" class="btn btn-warning">Svuota</button>
                                         </div>
                                       </form>
                                   </div>
