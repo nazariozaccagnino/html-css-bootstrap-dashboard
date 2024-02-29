@@ -32,3 +32,12 @@ main{
     width: 100%;
     height: auto;
 }
+/*  */
+.card-header{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#class-avatar{
+    width: 30px;
+    aspect-ratio: 1 / 1;
+}
