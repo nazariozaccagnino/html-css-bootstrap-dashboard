@@ -1,0 +1,36 @@
+.naz-debug{
+    border: 1px solid red;
+}
+.wrapper{
+    height: 100vh;
+    background-color: aqua;
+}
+.sidebar{
+    width: 200px;
+    background-color: bisque;
+    height: 100vh;
+    padding-top: 80px;
+
+}
+header{
+    background-color: blueviolet;
+    height: 80px;
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+main{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: brown;
+    overflow-y: auto;
+    padding-top: 80px;
+    
+}
+/* blue bar section */
+.blue-bar{
+    background-color: var(--bs-primary);
+    width: 100%;
+    height: auto;
+}
