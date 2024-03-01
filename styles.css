@@ -1,3 +1,4 @@
+/* initial classes */
 li{
     list-style: none;
 }
@@ -7,6 +8,7 @@ a{
 .naz-debug{
     border: 1px solid red;
 }
+/* ******* */
 .wrapper{
     height: 100vh;
 }
@@ -41,8 +43,9 @@ header{
 #nav-right{
     width: 150px;
 }
-
 /* ********* */
+
+/* main section */
 main{
     width: calc(100% - 200px);
     height: 100%;
@@ -50,21 +53,28 @@ main{
     padding-top: 80px;
     
 }
+/* ******* */
+
+/* sidebar section */
 .sidebar span{
     margin-left: 10px
 }
+/* ******* */
+
 /* blue bar section */
 .blue-bar{
     background-color: var(--bs-primary);
     width: 100%;
     height: auto;
 }
-/*  */
+/* ******* */
+
+/* app section */
 .card-header{
     font-weight: 600;
     font-size: 1.3rem;
 }
-#class-avatar{
+.class-avatar{
     width: 30px;
     aspect-ratio: 1 / 1;
 }
@@ -74,8 +84,9 @@ main{
 .app .badge{
     font-size: 9px;
 }
+/* ******* */
 @media screen and (max-width: 992px) {
-        #roi{
+        .roi{
             display: none;
         }
         .sidebar{
