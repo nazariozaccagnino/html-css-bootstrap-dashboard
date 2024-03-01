@@ -59,6 +59,10 @@ main{
 .sidebar span{
     margin-left: 10px
 }
+.sidebar div div:hover{
+    background-color: rgba(255, 255, 255, 0.353);
+    cursor: pointer;
+}
 /* ******* */
 
 /* blue bar section */
