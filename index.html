@@ -16,12 +16,20 @@
 <body>
     <header>
         <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
-                <input class="form-control" id="navbar-search" type="text" placeholder="Default input" aria-label="default input example">
-                
-                <div>a</div>
-                
+            <div class="container-fluid flex-nowrap">
+                <a class="navbar-brand" href="#" id="nav-left"><img src="./img/logo.svg" alt=""></a>
+                <div class="input-group">
+                    <span class="input-group-text btn-naz" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                <div id="nav-right">
+                    <ul class="d-flex justify-content-between align-items-center mt-3">
+                        <li><i class="fa-solid fa-list"></i></li>
+                        <li><i class="fa-solid fa-circle-question"></i></li>
+                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        <li><i class="fa-solid fa-bell" style="color: #ff8614;"></i></li>
+                    </ul>
+                </div>                
             </div>
           </nav>
     </header>
@@ -44,7 +52,7 @@
                 </div>
             </div>
         </div>
-        <main class="">
+        <main>
             <div class="blue-bar py-2">
                 <div class="container-fluid">
                     <div class="row ">

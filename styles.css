@@ -1,3 +1,6 @@
+li{
+    list-style: none;
+}
 .naz-debug{
     border: 1px solid red;
 }
@@ -20,6 +23,7 @@ header{
     top: 0;
     width: 100%;
 }
+/* navbar section */
 .navbar{
     height: 80px;
 }
@@ -28,6 +32,14 @@ header{
     width: 300px;
     flex-grow: 1;
 }
+#nav-left{
+    width: 150px;
+}
+#nav-right{
+    width: 150px;
+}
+
+/* ********* */
 main{
     width: calc(100% - 200px);
     height: 100%;
