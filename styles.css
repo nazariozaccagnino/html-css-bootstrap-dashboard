@@ -6,7 +6,8 @@
 }
 .sidebar{
     width: 200px;
-    background-color: bisque;
+    background-image: url(./img/sidebar-bg.png);
+    background-color: rgba(0, 41, 163, 0.685);
     height: 100vh;
     padding-top: 80px;
 
@@ -24,6 +25,7 @@ header{
 }
 #navbar-search{
     max-width: 90%;
+    width: 300px;
     flex-grow: 1;
 }
 main{
@@ -32,6 +34,9 @@ main{
     overflow-y: auto;
     padding-top: 80px;
     
+}
+.sidebar span{
+    margin-left: 10px
 }
 /* blue bar section */
 .blue-bar{
@@ -52,5 +57,20 @@ main{
     width: 100%;
 }
 .badge{
-    font-size: 10px;
+    font-size: 9px;
+}
+@media screen and (max-width: 992px) {
+        #roi{
+            display: none;
+        }
+        .sidebar{
+            width: 60px;
+            text-align: center;
+        }
+        .sidebar span{
+            display: none;
+        }
+        main{
+            width: calc(100% - 60px);
+        }
 }

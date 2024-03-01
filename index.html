@@ -26,8 +26,23 @@
           </nav>
     </header>
     <div class="wrapper d-flex">
-        <div class="sidebar">
-            <div>sidebar</div>
+        <div class="sidebar d-flex flex-column justify-content-between text-white">
+            <div class="container-fluid d-flex flex-column p-3">
+                <div class="mb-2">
+                    <div><i class="fa-solid fa-house"></i><span>Home</span></div>
+                </div>
+                <div class="mb-2">
+                    <div><i class="fa-solid fa-chart-simple"></i><span>Stats</span></div>
+                </div>
+                <div class="mb-2">
+                    <div><i class="fa-solid fa-signal"></i><span>Signal</span></div>
+                </div>
+            </div>
+            <div class="container-fluid p-3">
+                <div>
+                    <div><i class="fa-solid fa-gear"></i><span>Admin</span></div>
+                </div>
+            </div>
         </div>
         <main class="">
             <div class="blue-bar py-2">
@@ -134,26 +149,24 @@
                                 <div class="card-header">
                                     Prossime Classi
                                 </div>
-                                <ul class="list-group list-group-flush">
+                                <ul class="list-group list-group-flush p-3">
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-lg-8 col-md-4">Nome</div>
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">Nome</div>
                                             <div class="col text-nowrap">Data Inizio</div>
-                                            <div class="col">Roi</div>
+                                            <div class="col" id="roi">Roi</div>
                                             <div class="col">Stato</div>
                                             <div class="col">Azioni</div>
                                         </div>
                                     </li>
-
-
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-lg-8 col-md-4">
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">
                                                 <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                                 <span>Classe 75</span>
                                             </div>
                                             <div class="col text-nowrap">29 Feb 2024</div>
-                                            <div class="col">20%</div>
+                                            <div class="col" id="roi">20%</div>
                                             <div class="col"><span class="badge text-bg-success">Done</span></div>
                                             <div class="col text-nowrap">
                                                 <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -164,12 +177,12 @@
                                         </div>
                                     </li>
                                     <li class="list-group-item"><div class="row">
-                                        <div class="col-8">
+                                        <div class="col-xl-6 col-lg-4 col-sm-3">
                                             <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                             <span>Classe 76</span>
                                         </div>
                                         <div class="col text-nowrap">29 Feb 2024</div>
-                                        <div class="col">20%</div>
+                                        <div class="col" id="roi">20%</div>
                                         <div class="col"><span class="badge text-bg-success">Done</span></div>
                                         <div class="col text-nowrap">
                                             <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -181,12 +194,12 @@
 
                                     </li>
                                     <li class="list-group-item"><div class="row">
-                                        <div class="col-8">
+                                        <div class="col-xl-6 col-lg-4 col-sm-3">
                                             <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                             <span>Classe 77</span>
                                         </div>
                                         <div class="col text-nowrap">29 Feb 2024</div>
-                                        <div class="col">20%</div>
+                                        <div class="col" id="roi">20%</div>
                                         <div class="col"><span class="badge text-bg-warning">Process</span></div>
                                         <div class="col text-nowrap">
                                             <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -196,12 +209,12 @@
                                         </div>
                                     </div></li>
                                     <li class="list-group-item"><div class="row">
-                                        <div class="col-8">
+                                        <div class="col-xl-6 col-lg-4 col-sm-3">
                                             <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                             <span>Classe 78</span>
                                         </div>
                                         <div class="col text-nowrap">29 Feb 2024</div>
-                                        <div class="col">20%</div>
+                                        <div class="col" id="roi">20%</div>
                                         <div class="col"><span class="badge text-bg-success">Done</span></div>
                                         <div class="col text-nowrap">
                                             <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -212,12 +225,12 @@
                                     </div></li>
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">
                                                 <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                                 <span>Classe 79</span>
                                             </div>
                                             <div class="col text-nowrap">29 Feb 2024</div>
-                                            <div class="col">20%</div>
+                                            <div class="col" id="roi">20%</div>
                                             <div class="col"><span class="badge text-bg-danger">Fail</span></div>
                                             <div class="col text-nowrap">
                                                 <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -229,12 +242,12 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">
                                                 <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                                 <span>Classe 80</span>
                                             </div>
                                             <div class="col text-nowrap">29 Feb 2024</div>
-                                            <div class="col">20%</div>
+                                            <div class="col" id="roi">20%</div>
                                             <div class="col"><span class="badge text-bg-success">Done</span></div>
                                             <div class="col text-nowrap">
                                                 <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -246,12 +259,12 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">
                                                 <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                                 <span>Classe 81</span>
                                             </div>
                                             <div class="col text-nowrap">29 Feb 2024</div>
-                                            <div class="col">20%</div>
+                                            <div class="col" id="roi">20%</div>
                                             <div class="col"><span class="badge text-bg-danger">Fail</span></div>
                                             <div class="col text-nowrap">
                                                 <button type="button" class="btn btn-outline-dark btn-sm"><i
@@ -263,12 +276,12 @@
                                     </li>
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-8">
+                                            <div class="col-xl-6 col-lg-4 col-sm-3">
                                                 <img src="./img/class-avatar.jpg" alt="avatar" id="class-avatar">
                                                 <span>Classe 82</span>
                                             </div>
                                             <div class="col text-nowrap">29 Feb 2024</div>
-                                            <div class="col">20%</div>
+                                            <div class="col" id="roi">20%</div>
                                             <div class="col"><span class="badge text-bg-success">Done</span></div>
                                             <div class="col text-nowrap">
                                                 <button type="button" class="btn btn-outline-dark btn-sm"><i
