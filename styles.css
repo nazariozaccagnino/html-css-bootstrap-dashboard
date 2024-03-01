@@ -1,6 +1,9 @@
 li{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 .naz-debug{
     border: 1px solid red;
 }
@@ -68,7 +71,7 @@ main{
 .stats img{
     width: 100%;
 }
-.badge{
+.app .badge{
     font-size: 9px;
 }
 @media screen and (max-width: 992px) {
@@ -85,4 +88,22 @@ main{
         main{
             width: calc(100% - 60px);
         }
+        #nav-right{
+            width: 40px;
+        }
+        #nav-right div{
+            display: none;
+        }
+        #nav-right div:last-child{
+            display: block;
+            padding-left: 3px;
+        }
+        .extra-badges{
+            display: none;
+        }
+    }
+@media screen and (min-width: 992px) {
+    .plus-badge{
+        display: none;
+    }
 }
